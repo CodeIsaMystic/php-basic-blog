@@ -16,7 +16,7 @@ $link = $router->url('home');
 
 <!--  HEADING POSTS INDEX  -->
 <div class="container-fluid bg-light m-0 px-0 py-5">
-  <h1 class="display-2 text-center pt-5 m-0">Start !!!</h1>
+  <h1 class="display-2 text-center pt-5 m-0">Start</h1>
   <h5 class="text-center text-black-50 fw-light m-0 pb-5 pt-2">Just blogging from scratch ...</h5>
 </div>
 
