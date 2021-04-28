@@ -1,0 +1,84 @@
+\  ARCHITECTURE FILES /
+|======================| 
+ \===================/
+
+
+> COMMANDS
+            fill.php                            =>    library faker 
+
+
+> PUBLIC
+            index.php                           =>    entry point
+
+
+> SRC
+            > HELPERS
+                      Text.php
+            > HTML
+                      Form.php
+            > MODEL
+                      Category.php
+                      Post.php
+            > TABLE
+                      > EXCEPTION
+                                  NotFoundException.php
+                      CategoryTable.php
+                      PostTable.php
+                      Table.php
+            > VALIDATORS
+                      AbstractValidator.php
+                      CategoryValidator.php
+                      PostValidator.php
+
+            Auth.php
+            Connection.php
+            ObjectHelper.php
+            PaginatedQuery.php
+            Router.php
+            URL.php
+            Validator.php
+
+
+> VENDOR
+            > ALTOROUTER
+            > BIN
+            > COMPOSER 
+            > FILP / WHOOPS
+            > FZANNINOTTO / FAKER
+            > PSR
+            > SYMFONY / DUMP
+            > VLUCAS VALITRON
+            autoload.php    =>     library router
+
+
+> VIEWS
+            > ADMIN
+                        > CATEGORY 
+                                    _form.php
+                                    delete.php
+                                    edit.php
+                                    index.php
+                                    new.php
+                        > LAYOUTS 
+                                    default.php
+                        > POST 
+                                    _form.php
+                                    delete.php
+                                    edit.php
+                                    index.php
+                                    new.php
+
+            > CATEGORY 
+                        show.php
+
+            > LAYOUTS
+                        default.php
+            > POST 
+                        card.php
+                        index.php
+                        show.php
+
+
+bdd.sql
+composer.json
+composer.lock
