@@ -20,7 +20,7 @@ $link = $router->url('admin_home');
 <!-- LINK BACK TO FRONT --->
 <?php if(isset($_SESSION['auth'])): ?>
 <div class="container mx-0 px-0 py-3">
-  <a href="<?= $router->url('home') ?>" class="text-black-50 ps-4">
+  <a href="<?= $router->url('home') ?>" target="_blank" class="text-black-50 ps-4">
     Link to your Website
   </a>
 </div>
